@@ -1,7 +1,7 @@
 {
-  "name": "personal",
+  "name": "robbutcher-skills",
   "interface": {
-    "displayName": "Personal"
+    "displayName": "Rob Butcher Skills"
   },
   "plugins": [
     {
