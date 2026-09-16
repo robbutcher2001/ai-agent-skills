@@ -4,8 +4,8 @@ Reusable AI agent skills, plugins, and workflow conventions for Codex, Claude, a
 ## Repository layout
 
 ```text
+.agents/plugins/marketplace.json
 codex/
-|-- .agents/plugins/marketplace.json
 `-- plugins/
     `-- git-workflow/
         |-- .codex-plugin/plugin.json
@@ -16,14 +16,14 @@ codex/
                 `-- references/pr-descriptions.md
 ```
 
-The `codex/` directory is a self-contained Codex marketplace root. Other agent ecosystems can be added as separate root-level directories later.
+The root marketplace manifest exposes plugins stored under `codex/`. Other agent ecosystems can be added as separate root-level directories later.
 
 ## Install from GitHub
 
 Install the marketplace and Git workflow plugin without cloning this repository:
 
 ```sh
-codex plugin marketplace add robbutcher2001/ai-agent-skills --ref main --sparse codex
+codex plugin marketplace add robbutcher2001/ai-agent-skills --ref main
 codex plugin add git-workflow@robbutcher-skills
 ```
 
