@@ -17,3 +17,14 @@ codex/
 ```
 
 The `codex/` directory is a self-contained Codex marketplace root. Other agent ecosystems can be added as separate root-level directories later.
+
+## Install from GitHub
+
+Install the marketplace and Git workflow plugin without cloning this repository:
+
+```sh
+codex plugin marketplace add robbutcher2001/ai-agent-skills --ref main --sparse codex
+codex plugin add git-workflow@robbutcher-skills
+```
+
+Start a new Codex conversation after installation so the bundled skill is discovered.
