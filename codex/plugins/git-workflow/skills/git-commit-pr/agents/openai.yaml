@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Commit and PR"
+  short_description: "Create Commitizen commits and clear pull requests"
+  default_prompt: "Prepare my changes for a Commitizen commit and pull request."
