@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meal Kit Planner"
+  short_description: "Choose varied meals within dietary limits"
+  default_prompt: "Use $meal-kit-planner to recommend five meals for my next delivery without changing the order."
