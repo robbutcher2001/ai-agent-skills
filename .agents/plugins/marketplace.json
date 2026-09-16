@@ -8,7 +8,7 @@
       "name": "git-workflow",
       "source": {
         "source": "local",
-        "path": "./plugins/git-workflow"
+        "path": "./codex/plugins/git-workflow"
       },
       "policy": {
         "installation": "AVAILABLE",
