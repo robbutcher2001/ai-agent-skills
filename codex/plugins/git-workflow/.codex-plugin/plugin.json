@@ -1,0 +1,24 @@
+{
+  "name": "git-workflow",
+  "version": "0.1.0",
+  "description": "Consistent Commitizen commits and pull request descriptions for Git repositories.",
+  "author": {
+    "name": "Rob Butcher",
+    "url": "https://github.com/robbutcher2001"
+  },
+  "repository": "https://github.com/robbutcher2001/ai-agent-skills",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Git Workflow",
+    "shortDescription": "Create consistent commits and pull requests.",
+    "longDescription": "Uses each repository's Commitizen configuration and branch changes to prepare validated commit messages and useful pull request descriptions.",
+    "developerName": "Rob Butcher",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "defaultPrompt": [
+      "Prepare my changes for a Commitizen commit and pull request.",
+      "Draft a validated commit message for my staged changes.",
+      "Create a pull request description from this branch."
+    ]
+  }
+}
