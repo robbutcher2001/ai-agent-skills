@@ -1,0 +1,24 @@
+{
+  "name": "meal-planning",
+  "version": "0.1.0",
+  "description": "Plan recurring meal-kit selections from dietary preferences and meal history.",
+  "author": {
+    "name": "Rob Butcher",
+    "url": "https://github.com/robbutcher2001"
+  },
+  "repository": "https://github.com/robbutcher2001/ai-agent-skills",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Meal Planning",
+    "shortDescription": "Choose varied meal-kit recipes within dietary limits.",
+    "longDescription": "Reviews an upcoming meal-kit menu, applies dietary constraints, avoids recent repeats, proposes a balanced selection, and records approved meals in version-controlled history.",
+    "developerName": "Rob Butcher",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Use the meal planner to recommend five meals for my next delivery.",
+      "Review my upcoming meal-kit menu without changing the order.",
+      "Update my meal history after I approve this week's selection."
+    ]
+  }
+}
